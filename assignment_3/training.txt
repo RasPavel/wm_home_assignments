@@ -1,0 +1,5 @@
+
+Minimal loss=1.866 for test indices using 20 iterations is achieved with alpha=0.01 on iteration #3.
+However, after 3 iterations it starts to overfit. 
+Minimal loss=1.900 for test indices using 500 iterations is achieved with alpha=0.001 on iteration #137.
+We notice that alpha=0.05 gives unstable results. The gradient step is too big and it overshoots the local minimum.
